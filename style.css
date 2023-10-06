@@ -2,9 +2,10 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: Arial;
 }
 
+/*Hero section*/
 .hero{
     background-image: url(images/torshovjpeg.jpeg);
     background-size: cover;
@@ -23,7 +24,6 @@ body{
 }
 #title{
     color: #FFF;
-    font-family: Arial;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -37,7 +37,6 @@ body{
 #description{
     color: #FFF;
     text-align: center;
-    font-family: Arial;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -49,16 +48,17 @@ body{
     margin-top: 12px;
 
 }
+
+/*Activities section*/ 
 .activities{
+    font-size: 20px;
     background-color: #F1FAEE;
     color: #1D3557;
-    font-family: Arial;
     text-align: center; 
     padding: 50px;  
 }
 .activities-title{
     margin-top: 0;
-    font-size: 50px;
     padding-top: 20px;
 }
 .activities-content{
@@ -71,10 +71,40 @@ body{
 }
 .activities-description{
     text-align: center;
-    font-size: 24px;
     width: 300px;
 }
 .rounded-pics{
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
+}
+
+/*Guide section*/
+.guide{
+    color: #1D3557;
+    padding: 80px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.guide-content{
+    background-color: #A8DADC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px 60px;
+
+    border-bottom: 10px solid #1D3557;
+    border-radius: 20px;
+    
+}
+.guide-pic{
+    width: 250px;
+    border-radius: 20px;
+}
+.guide-text{
+    width: 200px;
+    text-align: center;    
 }
